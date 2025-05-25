@@ -21,9 +21,11 @@
     --nav-hover-background-color: #396E94;
 }
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fcfbfb;
+  margin: 0;
+  padding: 0;
 }
 content {
     max-width: 1600px;
@@ -44,6 +46,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    padding: 35px;
 }
 .hero-img {
     width: 100%;
@@ -62,6 +65,7 @@ hero-msg {
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
+    padding: 15px;
 }
 .card {
     text-align: center;
@@ -115,13 +119,7 @@ footer a {
     width: 24px;
     margin: 0 5px;
 }
-body {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-}
+
 img {
   display: block;
   margin: 0 auto;
@@ -133,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -236,4 +235,41 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
